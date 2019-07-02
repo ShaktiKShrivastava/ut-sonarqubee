@@ -1,0 +1,11 @@
+
+environment: development
+
+development:
+  source: /some/directory/path
+  verbose: true
+  credentials:
+    - hostname: example_hostname
+      username: example_username
+      password: example_password
+      operational: true
